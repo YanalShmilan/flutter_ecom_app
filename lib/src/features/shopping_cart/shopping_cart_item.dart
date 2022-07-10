@@ -39,7 +39,7 @@ class ShoppingCartItem extends ConsumerWidget {
         child: Padding(
           padding: const EdgeInsets.all(Sizes.p16),
           child: ShoppingCartItemContents(
-            product: product,
+            product: products[0],
             item: item,
             itemIndex: itemIndex,
             isEditable: isEditable,
